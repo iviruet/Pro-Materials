@@ -1,32 +1,41 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 html, body {
-background-image: url(astral-wallpapers.png);
-background-repeat:no-repeat;
-background-size: cover;
-background-attachment: fixed;
+    background-image: url(astral-wallpapers.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 @media only screen and (max-width: 767px) {
     body {
       background-image: url(astral-wallpapers.png);
     }
-  }
+}
 
-  #name {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: xx-large;
-  }
+#name {
+      font-family: sans-serif;
+      font-size: 40px;
+}
 
-  .container {
-    font-family: Arial, Helvetica, sans-serif;
+#pic {float: left;
+    margin: 8px 20px 20px 0px}
+
+.container {
+    /* font-family: Arial, Helvetica, sans-serif; */
     color: lightgrey;
     position: relative;
-    display: flex;
+    /* display: flex;
     flex-flow: row wrap;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     background-color: #333131c4;
     box-sizing: content-box;  
     width: 100%;
     height: auto;
     margin: 60px;
     padding: 40px; 
-  }
+    overflow: auto;
+}
+
