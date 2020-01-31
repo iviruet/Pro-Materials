@@ -1,4 +1,32 @@
-* {
+html, body {
 background-image: url(astral-wallpapers.png);
 background-repeat:no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }
+
+@media only screen and (max-width: 767px) {
+    body {
+      background-image: url(astral-wallpapers.png);
+    }
+  }
+
+  #name {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: xx-large;
+  }
+
+  .container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgrey;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    background-color: #333131c4;
+    box-sizing: content-box;  
+    width: 100%;
+    height: auto;
+    margin: 60px;
+    padding: 40px; 
+  }
