@@ -40,9 +40,14 @@ html, body {
     box-sizing: content-box;  
     width: 100%;
     height: auto;
+    margin-top: 20px;
     margin-bottom: 75px;
     padding: 40px; 
     overflow: visible;
+}
+
+.card-title {
+    color: black;
 }
 
 .footer, .page-wrap::after {
